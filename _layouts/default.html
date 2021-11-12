@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>{{page.title}}</title>
+		<link rel="icon" href="https://avatars.githubusercontent.com/u/83518257" />
+		<meta name="description" content="Esta es mi web." />
+		<link rel="stylesheet" type="text/css" href="{{site.github.url}}/styles.css" />
+		<noscript><style>#link,#setBkg,#loading{display:none;}</style></noscript>
+		<link type="application/atom+xml" rel="alternate" href="{{site.github.url}}/blog/feed.xml" title="MundoLucas" />
+	</head>
+	<body>
+		<div id="bkg"><img id="loading" src="{{site.github.url}}/imgs/cargando.jpg" alt="Cargando..." /><noscript><img src="{{site.github.url}}/imgs/carpincho.jpg" alt="" /></noscript></div>
+		<div class="center">
+			{{content}}
+			<footer>
+				<br />&copy;2021 - Web por <a href="/">Lucas</a>
+				<br /><noscript><a href="https://pixabay.com/photos/id-2528359/">Video/Imagen de fondo</a></noscript><a id="link" href="">Video/Imagen de fondo</a>
+				<br />Iconos por <a href="https://forkaweso.me"><i class="fa fa-fork-awesome"></i></a>
+				<!--<br /><a href="https://jigsaw.w3.org/css-validator/check/referer"><img class="badge" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS Válido!" /></a> <img class="badge" src="https://static.kotobank.ch/img/NOCOOKIS.GIF" alt="This site is certified 100% cookie free!" />--><br />
+				<br /><button id="setBkg" onclick="setBkg()"><i class="fa fa-repeat"></i> <span id="sBtxt">Cargando</span></button>
+				<br /><span id="webring-wrapper"><a href="https://lqrg.github.io/" id="previousBtn" class="webring-anchor" title="Previous">‹-</a><a href="https://lqrg.github.io/" class="webring-logo" title="LQring" alt="LQring"></a><a href="https://lqrg.github.io/" id="nextBtn" class="webring-anchor" title="Next">-›</a></span>
+			</footer>
+		</div>
+		<script src="/script.js"></script>
+		<script src="https://lqrg.github.io/public/embed.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,32 @@
+@import url("https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css");
+body{font-family:sans-serif;}
+#bkg video,#bkg img,#bkg noscript video{
+	position:fixed;
+	bottom:0;
+	right:0;
+	min-width:100%;
+	min-height:100%;
+}
+.center{
+	background:white;
+	margin:8px 10%;
+	position:relative;
+	text-align:center;
+	padding:4px;
+	border-radius:5px;
+}
+a{color:#30c078;text-decoration:none;}
+#setBkg{
+	background:linear-gradient(to bottom right, red,orange,yellow,green,blue,indigo,violet);
+	border:none;
+	color:white;
+	border-radius:50px;
+}
+#setBkg:hover{
+	background:linear-gradient(to bottom right, orange,yellow,green,blue,indigo,violet,red);
+}
+#setBkg:active{
+	background:linear-gradient(to bottom right, yellow,green,blue,indigo,violet,red,orange);
+}
+.badge{border:0;width:auto;height:22px;}
+footer{font-family:monospace;}
