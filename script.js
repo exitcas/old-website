@@ -28,8 +28,8 @@ function setBkg() {
 		}
 	}else if(num==2){
 		if(num!=last){
-			document.getElementById("link").href="https://twitter.com/XEEKAP/status/1326928987206131713";
-			document.getElementById("bkg").innerHTML=i1+"https://pbs.twimg.com/media/Emoy4WDXEAAg8-n.jpg"+i2;
+			document.getElementById("link").href="https://pixabay.com/photos/clouds-sky-atmosphere-blue-sky-7050884/";
+			document.getElementById("bkg").innerHTML=i1+"https://pixabay.com/images/download/clouds-7050884_640.jpg"+i2;
 			last=num;
 		}else{
 			setBkg();
