@@ -13,7 +13,7 @@ function setBkg() {
 	if(num==0){
 		if(num!=last){
 			document.getElementById("link").href="https://pixabay.com/videos/id-19308/";
-			document.getElementById("bkg").innerHTML=v1+"{{site.github.url}}/imgs/rio.mp4"+v2+"mp4"+v3;
+			document.getElementById("bkg").innerHTML=v1+"/imgs/rio.mp4"+v2+"mp4"+v3;
 			last=num;
 		}else{
 			setBkg();
@@ -21,7 +21,7 @@ function setBkg() {
 	}else if(num==1){
 		if(num!=last){
 			document.getElementById("link").href="https://youtu.be/bJPX5DPsRck";
-			document.getElementById("bkg").innerHTML=v1+"{{site.github.url}}/imgs/shroomjak.mp4' type='video/mp4' /></video>";
+			document.getElementById("bkg").innerHTML=v1+"/imgs/shroomjak.mp4' type='video/mp4' /></video>";
 			last=num;
 		}else{
 			setBkg();
