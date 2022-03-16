@@ -15,7 +15,7 @@ function bkg(source, code) {
 	document.getElementById("bkg").innerHTML = code;
 }
 function setBkg() {
-	num=Math.floor(Math.random()*5);
+	num=Math.floor(Math.random()*6);
 	if(num==0){
 		if(num!=last){
 			bkg("https://pixabay.com/videos/id-19308/",
@@ -52,6 +52,14 @@ function setBkg() {
 		if(num!=last){
 			bkg("https://www.redbubble.com/es/people/triinamariia/works/15636707-graphic-design-is-my-passion-rainbow-comic-sans",
 			img("https://ih0.redbubble.net/image.82233968.6707/flat,800x800,075,f.jpg"));
+			last=num;
+		}else{
+			setBkg();
+		}
+	}else if(num==5){
+		if(num!=last){
+			bkg("#",
+			img("https://duckduckgo.com/i/136017b7.png"));
 			last=num;
 		}else{
 			setBkg();
